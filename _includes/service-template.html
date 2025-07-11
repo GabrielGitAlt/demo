@@ -65,10 +65,13 @@
       </p>
     </div>
     <div class="mb-5">
-      <h3 class="fw-bold mb-3 text-success">What MTZ Does</h3>
+      <h3 class="fw-bold mb-3 text-success">
+        {% if is_es == '/es/' %}Lo que Paradise Yards & Design Hace{% else
+        %}What Paradise Yards & Design Does{% endif %}
+      </h3>
       <p>
         {{ page.service_process | default: 'Explain the process, steps, and care
-        MTZ provides when delivering this service.' }}
+        Paradise Yards & Design provides when delivering this service.' }}
       </p>
     </div>
     <div class="text-center mt-5">
