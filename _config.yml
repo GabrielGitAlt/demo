@@ -13,8 +13,8 @@ collections:
 
 # General site info
 url: ""
-baseurl: "/landscaping" # REQUIRED: Set to your repo name for GitHub Pages
-title: "MTZ Landscape & Irrigation Systems LLC"
+baseurl: "/demo" # REQUIRED: Set to your repo name for GitHub Pages
+title: "Paradise Yards & Design LLC"
 description: "Professional landscaping and gardening services"
 keywords: "gardening, landscaping, garden services"
 
