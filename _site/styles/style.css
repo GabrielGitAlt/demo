@@ -435,7 +435,7 @@ body {
 .testimonial-video-bg-simple {
   position: absolute;
   inset: 0;
-  background-image: url("{{ '/assets/images/video.png' | relative_url }}");
+  background-image: url("../assets/images/video.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -950,19 +950,12 @@ button:disabled {
   padding-bottom: 6rem !important;
 }
 
-@media (min-width: 992px) {
-  .banner .col-lg-6.d-none.d-lg-block.text-end {
-    min-height: 420px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  .banner .col-lg-6.d-none.d-lg-block.text-end img {
-    min-height: 420px;
-    height: 420px;
-    object-fit: cover;
-    width: auto;
-    max-width: 100%;
-    display: block;
-  }
+/* Make contact form text boxes more noticeable */
+.contact-section-inner .form-control {
+  border: 2px solid #bbb !important; /* Gray border */
+  box-shadow: 0 0 0 0.1rem rgba(32, 132, 84, 0.1); /* Light green shadow */
+}
+.contact-section-inner .form-control:focus {
+  border-color: #1b6b45 !important; /* Accent green on focus */
+  box-shadow: 0 0 0 0.2rem rgba(32, 132, 84, 0.18); /* Slightly stronger green shadow on focus */
 }
